@@ -1,0 +1,38 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Calculator" type="OhosDebugTask" factoryName="HarmonyOS App" singleton="false">
+    <module name="entry" />
+    <option name="DEPLOY" value="true" />
+    <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+    <option name="DEPLOY_AS_INSTANT" value="false" />
+    <option name="ARTIFACT_NAME" value="" />
+    <option name="PM_INSTALL_OPTIONS" value="" />
+    <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+    <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+    <option name="MODE" value="default_activity" />
+    <option name="CLEAR_LOGCAT" value="false" />
+    <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+    <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+    <option name="FORCE_STOP_RUNNING_APP" value="true" />
+    <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+    <option name="DEBUGGER_TYPE" value="Auto" />
+    <Auto />
+    <Dual />
+    <DualJs />
+    <Java />
+    <Js />
+    <Native />
+    <Profilers>
+      <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+      <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+    </Profilers>
+    <option name="DEEP_LINK" value="" />
+    <option name="ACTIVITY_CLASS" value="" />
+    <DEPLOY_MULTI_HAP>false</DEPLOY_MULTI_HAP>
+    <REINSTALL_APPLICATION>true</REINSTALL_APPLICATION>
+    <method v="2">
+      <option name="Ohos.Build.BeforeRunTask" enabled="true" />
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,105 @@
+.container {
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.input_container{
+    padding:40px 0px 100px 0px;
+    background-color:#242323;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    flex-direction: column;
+    flex:0.3;
+}
+button{
+    radius: 50px;
+}
+.text {
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.inputVal{
+    font-size: 26px;
+    color: white;
+    height:28px;
+    width: 100%;
+    text-align: end;
+    margin: 20px 5px;
+}
+#result{
+    font-size: 42px;
+    color: white;
+    height:42px;
+    width:100%;
+    text-align: end;
+}
+.grid-container{
+    flex:0.7;
+/*    top:100px;*/
+}
+.grid{
+    width:100%;
+    height:100%;
+    margin-right: 2px;
+}
+
+button:active{
+    background-color: #242323;
+}
+
+.grid-row{
+    justify-content: space-between;
+    height:98px;
+    align-items:center;
+}
+
+.value-container{
+    color:white;
+    font-size: 24px;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.operator{
+    color:white;
+    font-size: 28px;
+    justify-content: center;
+    margin-right: 6px;
+}
+
+.equal{
+    background-color:#e81a35;
+}
+@media screen and (device-type: tablet) and (orientation: landscape) {
+    .title {
+        font-size: 100px;
+    }
+}
+
+@media screen and (device-type: wearable) {
+    .title {
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: tv) {
+    .container {
+        background-image: url("../../common/images/Wallpaper.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .title {
+        font-size: 100px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: phone) and (orientation: landscape) {
+    .title {
+        font-size: 60px;
+    }
+}

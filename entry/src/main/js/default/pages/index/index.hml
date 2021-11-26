@@ -1,0 +1,86 @@
+<div class="container">
+    <div class="input_container">
+        <text class="text">Calculator</text>
+        <text class="inputVal" id="input-text">{{calc}}</text>
+        <text id="result">{{result}}</text>
+    </div>
+
+    <div class="grid-container">
+        <grid-container class="grid" columns="4">
+            <grid-row class="grid-row">
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="ac">AC</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="c">C</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="operator" type="circle" onclick="getPressedValue" id="%">%</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="operator" type="circle" onclick="getPressedValue" id="/">÷</button>
+                </grid-col>
+            </grid-row>
+
+            <grid-row class="grid-row">
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="7">7</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="8">8</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="9">9</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="operator" type="circle" onclick="getPressedValue" id="*">×</button>
+                </grid-col>
+            </grid-row>
+
+            <grid-row class="grid-row">
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="4">4</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="5">5</button>
+                </grid-col>
+                <grid-col span="1">
+                   <button class="value-container" type="circle" onclick="getPressedValue" id="6">6</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="operator" type="circle" onclick="getPressedValue" id="-">−</button>
+                </grid-col>
+            </grid-row>
+
+            <grid-row class="grid-row">
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="1">1</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="2">2</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="3">3</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="operator" type="circle" onclick="getPressedValue" id="+">+</button>
+                </grid-col>
+            </grid-row>
+
+            <grid-row class="grid-row">
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="power">pow</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="0">0</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="value-container" type="circle" onclick="getPressedValue" id="point">.</button>
+                </grid-col>
+                <grid-col span="1">
+                    <button class="operator equal" type="circle" onclick="getPressedValue" id="equalTo">=</button>
+                </grid-col>
+            </grid-row>
+        </grid-container>
+    </div>
+</div>
