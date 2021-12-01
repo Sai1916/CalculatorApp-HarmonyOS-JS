@@ -4,4 +4,4 @@
 
 ### By Building HarmonyOS Apps using JavaScript i built this Calculator Application
 
-<img src="/images/calc.png" height="700px" />
+<img src="/images/calc.png" height="600px" />
